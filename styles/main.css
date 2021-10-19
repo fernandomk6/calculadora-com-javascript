@@ -1,0 +1,29 @@
+#inputDisplayResultado {
+    font-size: 24px;
+    width: 100%;
+    text-align: right;
+}
+
+#textAreaHistorico {
+    max-height: 140px;
+    height: 100px;
+    min-height: 50px;
+    text-align: right;
+}
+
+.areaCalculadora {
+    max-width: 600px;
+    margin: 10vh auto 0;
+}
+
+.row div {
+    padding: 0
+}
+
+.row div button {
+    width: 100%;
+}
+
+.btn {
+    border-color: #000a1533;
+}

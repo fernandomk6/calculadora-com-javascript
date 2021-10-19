@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+    <div class="container areaCalculadora">
+        <div class="row">
+            <div class="col-12">
+                <textarea id="textAreaHistorico" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input id="inputDisplayResultado" type="text" class="form-control" readonly />
+            </div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <button id="btnLimpar" type="button" class="btn btn-warning">C</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">7</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">8</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">9</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success btn-operador">/</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">4</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">5</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">6</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success btn-operador">*</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">1</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">2</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">3</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success btn-operador">-</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <button type="button" class="btn btn-primary btn-numero">0</button>
+            </div>
+            <div class="col-3">
+                <button id="btnPonto" type="button" class="btn btn-success">.</button>
+            </div>
+            <div class="col-3">
+                <button id="btnResultado" type="button" class="btn btn-success">=</button>
+            </div>
+            <div class="col-3">
+                <button type="button" class="btn btn-success btn-operador">+</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
