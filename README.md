@@ -1,2 +1,3 @@
 # Calculadora JS
-Calculadora feita com javascript
+
+Calculadora feita com javascript.
